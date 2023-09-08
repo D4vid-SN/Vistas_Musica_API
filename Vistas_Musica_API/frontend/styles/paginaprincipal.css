@@ -1,0 +1,33 @@
+        /* Estilos personalizados para el reproductor */
+        .music-player {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .music-controls {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .progress-bar {
+            background-color: #555;
+            height: 3px;
+            width: 100%;
+            margin: 0;
+            position: relative;
+        }
+
+        .progress-bar .progress {
+            background-color: #1DB954;
+            height: 100%;
+            width: 50%;
+        }
